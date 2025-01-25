@@ -51,7 +51,7 @@ export const PROJECTS = [
   },
   {
     title: "Geo Compensate: Mobile app for managing the mobile workforce ",
-    link: "https://youtu.be/GqKjJTQcdX8",
+    link: "https://github.com/NandishDPatel/GeoCompensate",
     image: project2,
     height:200,
     width:150,
