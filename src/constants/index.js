@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I’m a Computer Science graduate student, close to finishing my degree and excited to start my career. Having a solid background in technical and problem-solving skills who is eager to take on new challenges where I can put my knowledge to use. I am passionate about learning and growing in my field, and ready to make a positive impact in my future role.`;
+export const HERO_CONTENT = `I am an aspiring Computer Science student, set to graduate in Spring 2025, with strong expertise in MERN stack development and experience as a frontend developer. I excel in problem-solving and critical thinking, and I am eager to apply my skills to real-world challenges as I prepare to kickstart my career.`;
 
 export const ABOUT_FIRST = `A fitness enthusiast who stays active through regular workouts and sports, including running, cycling, and racket sports like tennis, badminton, and table tennis. I also enjoy listening to music while studying or coding my projects. My second favorite activity is trekking, with one of my most memorable hikes being a trek up to 13,800 feet in Kasol, Himachal Pradesh.`;
 export const ABOUT_SECOND = `I am a self-motivated and disciplined individual who is always eager to learn, grow, and develop new skills. I believe in maintaining a well-structured daily routine, which helps me stay focused and productive. As a quick learner, I adapt swiftly to new challenges, and I value collaboration, understanding that success is best achieved by working effectively within a team. I’m committed to continuous improvement and approach every opportunity with enthusiasm and a positive outlook.`;
@@ -79,16 +79,16 @@ export const PROJECTS = [
       "Created a multi-functional iOS app using Figma, enabling users to access transport information, book appointments, and view essential documents like driver's licenses and vehicle registrations, enhancing user convenience and efficiency.",
     technologies: ["Figma"],
   },
-  {
-    title: "Prediction of heart disease using ML model",
-    link: "https://github.com/NandishDPatel/ML-Heart_Disease_Prediction",
-    image: project5,
-    height:200,
-    width:200,
-    description:
-      "Applied machine learning methodologies such as SVM, LDA, Decision Tree, and Naïve Bayes to forecast heart disease likelihood in patients, achieving a 72% accuracy with SVM and 64% with Decision Tree after applying PCA, optimizing predictions for patient health outcomes.",
-    technologies: ["Python", "Jupyter Notebook"],
-  },
+  // {
+  //   title: "Prediction of heart disease using ML model",
+  //   link: "https://github.com/NandishDPatel/ML-Heart_Disease_Prediction",
+  //   image: project5,
+  //   height:200,
+  //   width:200,
+  //   description:
+  //     "Applied machine learning methodologies such as SVM, LDA, Decision Tree, and Naïve Bayes to forecast heart disease likelihood in patients, achieving a 72% accuracy with SVM and 64% with Decision Tree after applying PCA, optimizing predictions for patient health outcomes.",
+  //   technologies: ["Python", "Jupyter Notebook"],
+  // },
 ];
 
 export const CURRICULAR_ACTIVITIES = [
