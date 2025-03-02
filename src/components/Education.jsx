@@ -33,7 +33,7 @@ const Education = () => {
                   {education.gpa}
                 </span>
               </p>
-              {education.courses? <p className="text-bold text-xl text-white mt-3">Courswork :</p> : ""}
+              {education.courses? <p className="text-bold text-xl text-white mt-3 hidden lg:block ">Courswork :</p> : ""}
               
             </motion.div>
             <motion.div
