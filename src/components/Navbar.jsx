@@ -3,7 +3,11 @@ import { FaLinkedin, FaGithub, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { NAVBAR_LINKS } from "../constants";
 
-const Navbar = () => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({ scrollToSection }) => {
+  const handleScroll = (id) => {
+    scrollToSection(id);
+  };
   return (
     <>
       <div className="lg:fixed md:fixed top-0 left-0 right-0 z-40 flex justify-center">
@@ -41,12 +45,13 @@ const Navbar = () => {
 
           <div className="w-full links flex flex-wrap justify-center border-b-2 border-t-2 border-b-white py-3 gap-4 sm:gap-6">
             {NAVBAR_LINKS.map((link, index) => (
-              <div
+              <button
                 key={index}
                 className="text-xl border-b-2 border-blue-500 text-blue-500 hover:cursor-pointer hover:text-green-500 hover:border-b-green-500"
+                onClick={() => handleScroll(link.id)}
               >
-                {link}
-              </div>
+                {link.name}
+              </button>
             ))}
           </div>
         </div>
