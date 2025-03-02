@@ -6,7 +6,7 @@ import { NAVBAR_LINKS } from "../constants";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-40 flex justify-center">
+      <div className="lg:fixed md:fixed top-0 left-0 right-0 z-40 flex justify-center">
         {/* Outer Wrapper Centered */}
         <div className="bg-[#1e1e2f] w-[90%] mb-2">
           {/* Navbar */}
@@ -39,7 +39,6 @@ const Navbar = () => {
             </div>
           </nav>
 
-          {/* Links Section */}
           <div className="w-full links flex flex-wrap justify-center border-b-2 border-t-2 border-b-white py-3 gap-4 sm:gap-6">
             {NAVBAR_LINKS.map((link, index) => (
               <div
@@ -53,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="h-[100px]"></div>
+      <div className="lg:h-[100px] md:h-[180px]"></div>
     </>
   );
 };
