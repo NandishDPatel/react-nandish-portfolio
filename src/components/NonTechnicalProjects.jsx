@@ -40,7 +40,7 @@ const NonTechnicalProjects = () => {
             <img
               src={image2}
               alt=""
-              className="rounded max-w-[200px] h-auto h-auto"
+              className="rounded max-w-[200px] h-auto"
             />
           </a>
           <a
@@ -51,7 +51,7 @@ const NonTechnicalProjects = () => {
             <img
               src={image3}
               alt=""
-              className="rounded max-w-[400px] w-full h-auto h-auto"
+              className="rounded max-w-[400px] w-full h-auto"
             />
           </a>
         </motion.div>
