@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 import image1 from "../assets/certificates/02_30_days_google.png";
 import image2 from "../assets/certificates/04_explore_ml_1.png";

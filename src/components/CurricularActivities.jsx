@@ -1,7 +1,7 @@
-import React from 'react'
+
 import { motion } from "motion/react";
-import { EDUCATION } from '../constants';
-import { CURRICULAR_ACTIVITIES } from '../constants';
+// import { EDUCATION } from '../constants';
+// import { CURRICULAR_ACTIVITIES } from '../constants';
 
 const CurricularActivities = () => {
     return (

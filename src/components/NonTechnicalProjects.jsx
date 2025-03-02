@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 import image3 from "../assets/nontech-projects/DecisionSciences.png";
 import image2 from "../assets/nontech-projects/toothpastedispenser.png";

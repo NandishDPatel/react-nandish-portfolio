@@ -2,7 +2,9 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-import project5 from "../assets/projects/project-5.png";
+// import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I am an aspiring Computer Science student, set to graduate in Spring 2025, with strong expertise in MERN stack development and experience as a frontend developer. I excel in problem-solving and critical thinking, and I am eager to apply my skills to real-world challenges as I prepare to kickstart my career.`;
 
@@ -28,6 +30,7 @@ export const EDUCATION = [
     university: "University of Texas at Arlington",
     address: "Arlington, USA",
     gpa: "GPA: 4.0/4.0",
+    courses: [ "Software Testing", "Software Engineering: Analysis, Design & Testing", "AI", "Advanced Topics in SE", "Design & Analysis of Algorithms", "Database Systems", "Computer Networks",  "Computer Vision", "Data Mining", ]
   },
   {
     year: "Jul 2019 - May 2023",
@@ -35,11 +38,29 @@ export const EDUCATION = [
     field: "Computer Science and Engineering",
     university: "Ahmedabad Univeristy",
     address: "Ahmedabad, India",
-    gpa: "",  
+    gpa: "GPA: 2.9/4.0",  
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "Money Minds: Track your finances smarter by simplify budgeting",
+    link: "https://github.com/NandishDPatel/Money-Minds",
+    image: project6,
+    width:350,
+    description:
+      "Designed to simplify the process of tracking expenses against budgets. With seamless user authentication via Clerk, users can securely log in and manage their personal financial data. The app allows users to create budgets for specific categories and track individual expenses.",
+    technologies: [ "Next.js", "Typescript", "Tailwind CSS", "Clerk", "Drizzle ORM", "Shadcn UI"],
+  },
+  {
+    title: "Chatter Box: Real-Time Communication Made Simple",
+    link: "https://github.com/NandishDPatel/Chatter-Box",
+    image: project7,
+    width:350,
+    description:
+      "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
+    technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn"],
+  },
   {
     title: "Journey Genie: AI powered trip planning platform",
     link: "https://github.com/nandishdpatel/JourneyGenie",
@@ -53,7 +74,7 @@ export const PROJECTS = [
     title: "Geo Compensate: Mobile app for managing the mobile workforce ",
     link: "https://youtu.be/GqKjJTQcdX8",
     image: project2,
-    height:200,
+    height:150,
     width:150,
     description:
       "Developed a mobile app that uses GPS to automate payroll, tracking work hours, breaks, and overtime accurately. This solution streamlines workforce management, reduces manual errors, and enables location-based compensation adjustments, enhancing transparency and efficiency for mobile teams.",
@@ -67,13 +88,13 @@ export const PROJECTS = [
     width:350,
     description:
       "Designed and implemented the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Prioritized responsive design and smooth navigation to ensure accessibility across devices. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
-    technologies: ["React.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
   },
   {
     title: "Digiwheels: An iOS mobile application",
     link: "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
     image: project4,
-    height:200,
+    height:150,
     width:150,
     description:
       "Created a multi-functional iOS app using Figma, enabling users to access transport information, book appointments, and view essential documents like driver's licenses and vehicle registrations, enhancing user convenience and efficiency.",
@@ -89,6 +110,8 @@ export const PROJECTS = [
   //     "Applied machine learning methodologies such as SVM, LDA, Decision Tree, and Naïve Bayes to forecast heart disease likelihood in patients, achieving a 72% accuracy with SVM and 64% with Decision Tree after applying PCA, optimizing predictions for patient health outcomes.",
   //   technologies: ["Python", "Jupyter Notebook"],
   // },
+ 
+  
 ];
 
 export const CURRICULAR_ACTIVITIES = [
@@ -116,3 +139,4 @@ export const CONTACT = {
   email: "nandishdpatel22@gmail.com",
 };
 
+export const NAVBAR_LINKS = ['Education','Experience','Projects','About Me','Technologies','Curricular Activities','Contact'];
