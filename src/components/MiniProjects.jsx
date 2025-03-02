@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion';
 import image1 from '../assets/mini-projects/pineVale_Website.png';
 import image2 from '../assets/mini-projects/eduVibeWebsite.png';

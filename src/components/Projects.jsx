@@ -1,4 +1,3 @@
-import React from 'react'
 import { PROJECTS } from '../constants'
 import {motion} from "motion/react";
 
@@ -13,7 +12,7 @@ const Projects = () => {
                 <img src={project.image} height={project.height} width={project.width} alt={project.name} className='mb-6 rounded'/> 
                 </motion.div>
                 <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0,x:100}} transition={{duration:1}} className='w-full max-w-xl lg:w-3/4'>
-                <h6 className='mb-2 font-semibold text-blue-400'><a href={project.link} target='_blank'>{project.title}</a></h6>
+                <h6 className='mb-2 font-semibold text-blue-400'><a href={project.link} target='_blank' className='border-b-2 border-b-blue-400 hover:text-green-500 hover:border-b-green-500'>{project.title}</a></h6>
                 <p className='mb-4 text-neutral-400'>{project.description}</p>
                 {project.technologies.map((technology, index) => (
                     <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-blue-400'>

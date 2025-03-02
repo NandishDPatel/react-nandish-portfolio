@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "motion/react";
 import image3 from "../assets/nontech-projects/DecisionSciences.png";
 import image2 from "../assets/nontech-projects/toothpastedispenser.png";
@@ -41,7 +40,7 @@ const NonTechnicalProjects = () => {
             <img
               src={image2}
               alt=""
-              className="rounded max-w-[200px] h-auto h-auto"
+              className="rounded max-w-[200px] h-auto"
             />
           </a>
           <a
@@ -52,7 +51,7 @@ const NonTechnicalProjects = () => {
             <img
               src={image3}
               alt=""
-              className="rounded max-w-[400px] w-full h-auto h-auto"
+              className="rounded max-w-[400px] w-full h-auto"
             />
           </a>
         </motion.div>
