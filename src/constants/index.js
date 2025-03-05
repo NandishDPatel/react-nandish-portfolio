@@ -111,7 +111,7 @@ export const PROJECTS = [
     width: 350,
     description:
       "Designed and implemented the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Prioritized responsive design and smooth navigation to ensure accessibility across devices. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
-    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    technologies: ["HTML", "CSS", "Bootstrap"],
   },
   {
     title: "Digiwheels: An iOS mobile application",
