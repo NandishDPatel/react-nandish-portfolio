@@ -105,7 +105,7 @@ export const PROJECTS = [
   },
   {
     title: "EShoppy: E-commerce clothing website frontend design",
-    link: "https://ecom-34z.pages.dev/",
+    link: "https://nandishdpatel.github.io/BTechProject/",
     image: project3,
     height: 350,
     width: 350,
