@@ -67,6 +67,7 @@ export const PROJECTS = [
       "Drizzle ORM",
       "Shadcn UI",
     ],
+    links: ["https://github.com/NandishDPatel/Money-Minds"],
   },
   {
     title: "Chatter Box: Real-Time Communication Made Simple",
@@ -76,6 +77,7 @@ export const PROJECTS = [
     description:
       "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
     technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn"],
+    links: ["https://github.com/NandishDPatel/Chatter-Box"],
   },
   {
     title: "Journey Genie: AI powered trip planning platform",
@@ -92,6 +94,7 @@ export const PROJECTS = [
       "Firebase",
       "Tailwind CSS",
     ],
+    links: ["https://github.com/nandishdpatel/JourneyGenie"],
   },
   {
     title: "Geo Compensate: Mobile app for managing the mobile workforce ",
@@ -102,6 +105,7 @@ export const PROJECTS = [
     description:
       "Developed a mobile app that uses GPS to automate payroll, tracking work hours, breaks, and overtime accurately. This solution streamlines workforce management, reduces manual errors, and enables location-based compensation adjustments, enhancing transparency and efficiency for mobile teams.",
     technologies: ["React Native", "Node.js", "Express.js", "MongoDB"],
+    links: ["https://github.com/NandishDPatel/GeoCompensate"],
   },
   {
     title: "EShoppy: E-commerce clothing website frontend design",
@@ -112,6 +116,10 @@ export const PROJECTS = [
     description:
       "Designed and implemented the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Prioritized responsive design and smooth navigation to ensure accessibility across devices. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
     technologies: ["HTML", "CSS", "Bootstrap"],
+    links: [
+      "https://github.com/NandishDPatel/BTechProject",
+      "https://nandishdpatel.github.io/BTechProject/",
+    ],
   },
   {
     title: "Digiwheels: An iOS mobile application",
@@ -122,6 +130,10 @@ export const PROJECTS = [
     description:
       "Created a multi-functional iOS app using Figma, enabling users to access transport information, book appointments, and view essential documents like driver's licenses and vehicle registrations, enhancing user convenience and efficiency.",
     technologies: ["Figma"],
+    links: [
+      "https://github.com/NandishDPatel/HCI_Figma_DigiWheels",
+      "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
+    ],
   },
   // {
   //   title: "Prediction of heart disease using ML model",
@@ -169,5 +181,6 @@ export const NAVBAR_LINKS = [
   { name: "About Me", id: "aboutme" },
   { name: "Technologies", id: "technologies" },
   { name: "Curricular Activities", id: "activities" },
+  { name: "Bootstrap Projects", id: "miniprojects" },
   { name: "Contact", id: "contact" },
 ];

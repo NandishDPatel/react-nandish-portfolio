@@ -4,16 +4,25 @@ import { SiLeetcode } from "react-icons/si";
 import { NAVBAR_LINKS } from "../constants";
 
 // eslint-disable-next-line react/prop-types
-const Navbar = ({ scrollToSection }) => {
+const Navbar = () => {
+
   const handleScroll = (id) => {
-    scrollToSection(id);
+    const section = document.getElementById(id);
+    if (section) {
+      const offset = 150; // Adjust this value to match your navbar height
+      const sectionPosition = section.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: sectionPosition - offset,
+        behavior: "smooth",
+      });
+    }
   };
+  
   return (
     <>
       <div className="lg:fixed md:fixed top-0 left-0 right-0 z-40 flex justify-center">
         {/* Outer Wrapper Centered */}
         <div className="bg-[#1e1e2f] w-[90%] mb-2">
-          {/* Navbar */}
           <nav className="mb-0 py-2 flex justify-between items-center">
             <div className="flex flex-shrink-0 items-center">
               <img className="mx-2 w-16" src={logo} alt="" />
@@ -47,7 +56,7 @@ const Navbar = ({ scrollToSection }) => {
             {NAVBAR_LINKS.map((link, index) => (
               <button
                 key={index}
-                className="text-xl border-b-2 border-blue-500 text-blue-500 hover:cursor-pointer hover:text-green-500 hover:border-b-green-500"
+                className="text-xl hover:cursor-pointer text-green-400 border-b-2 border-green-400 hover:text-blue-600 hover:border-b-black hover:bg-white"
                 onClick={() => handleScroll(link.id)}
               >
                 {link.name}

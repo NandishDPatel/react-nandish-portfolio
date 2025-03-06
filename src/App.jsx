@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import CurricularActivities from "./components/CurricularActivities";
 // import NonTechnicalProjects from './components/NonTechnicalProjects'
-// import MiniProjects from './components/MiniProjects'
+import MiniProjects from './components/MiniProjects'
 // import Certifications from './components/Certifications';
 // import CourseCertifications from './components/CourseCertifications'
 import { useRef } from "react";
@@ -22,6 +22,7 @@ const App = () => {
     technologies: useRef(null),
     activities: useRef(null),
     contact: useRef(null),
+    miniprojects: useRef(null),
   };
 
 
@@ -46,7 +47,7 @@ const App = () => {
         <div ref={refs.aboutme}><About /></div>
         <div ref={refs.technologies}><Technologies /></div>
         <div ref={refs.activities}><CurricularActivities /></div>
-        {/* <MiniProjects/> */}
+        <div ref={refs.miniprojects}><MiniProjects/></div>
         {/* <Certifications/> */}
         {/* <CourseCertifications/> */}
         {/* <NonTechnicalProjects/> */}
