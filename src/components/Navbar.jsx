@@ -3,7 +3,6 @@ import { FaLinkedin, FaGithub, FaHackerrank } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { NAVBAR_LINKS } from "../constants";
 
-// eslint-disable-next-line react/prop-types
 const Navbar = () => {
 
   const handleScroll = (id) => {
@@ -32,26 +31,25 @@ const Navbar = () => {
                 href="https://www.linkedin.com/in/nandish-patel-492086193/"
                 target="_blank"
               >
-                <FaLinkedin className="hover:text-blue-600" />
+                <FaLinkedin className="hover:text-green-400 text-blue-600" />
               </a>
               <a
                 href="https://github.com/NandishDPatel?tab=repositories"
                 target="_blank"
               >
-                <FaGithub className="hover:text-black" />
+                <FaGithub className="hover:text-green-400 text-black" />
               </a>
               <a href="https://leetcode.com/u/nandishdpatel22/" target="_blank">
-                <SiLeetcode className="hover:text-orange-400" />
+                <SiLeetcode className="hover:text-green-400 text-orange-400" />
               </a>
               <a
                 href="https://www.hackerrank.com/profile/nandishdpatel22"
                 target="_blank"
               >
-                <FaHackerrank className="hover:text-green-400" />
+                <FaHackerrank className="hover:text-green-400 text-green-700" />
               </a>
             </div>
           </nav>
-
           <div className="w-full links flex flex-wrap justify-center border-b-2 border-t-2 border-b-white py-3 gap-4 sm:gap-6">
             {NAVBAR_LINKS.map((link, index) => (
               <button
