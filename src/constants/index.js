@@ -13,11 +13,11 @@ export const ABOUT_SECOND = `I am a self-motivated and disciplined individual wh
 
 export const EXPERIENCES = [
   {
-    year: "Jan 2023 - Jul 2023",
-    role: "Frontend Developer Trainee",
+    year: "Jan 2023 - Jun 2023",
+    role: "Frontend Developer",
     company: "TOPS Technology",
-    description: `Gained hands-on experience with various technologies by developing real-time projects, including an e-commerce website and smaller web page designs for the clothing and education sectors. Started with HTML, CSS, and Bootstrap to build responsive UIs, then advanced to developing dynamic, interactive interfaces using React.js within a six-month period.`,
-    technologies: ["React.js", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    description: `Developed real-world web applications, including an e-commerce platform and education-sector websites, using React, JavaScript, and Tailwind CSS to build responsive and dynamic user interfaces. Designed and implemented reusable React components while leveraging Tailwind CSS for efficient styling, ensuring a seamless and visually appealing user experience. Developing the components by convrting figma design to web pages.`,
+    technologies: ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap"],
   },
 ];
 
