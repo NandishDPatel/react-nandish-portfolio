@@ -183,9 +183,9 @@ export const NAVBAR_LINKS = [
   { name: "Education", id: "education" },
   { name: "Experience", id: "experience" },
   { name: "Projects", id: "projects" },
-  { name: "About Me", id: "aboutme" },
-  { name: "Technologies", id: "technologies" },
   { name: "Curricular Activities", id: "activities" },
+  { name: "Technologies", id: "technologies" },
+  { name: "About Me", id: "aboutme" },
   { name: "Bootstrap Projects", id: "miniprojects" },
   { name: "Contact", id: "contact" },
 ];
