@@ -14,11 +14,11 @@ const About = () => {
                 
             </motion.div>
             <motion.div whileInView={{opacity:1, x:0} } initial={{opacity:0,x:100}} transition={{duration:0.5}} className='w-full lg:w-1/2'>
-                <div className='flex justify-center lg:justify-start'>
-                    <p className='my-2 maxw-xl py-6 text-lg'>{ABOUT_FIRST}</p>
+                <div className='flex justify-center'>
+                    <p className='my-2 max-w-xl py-3 md:py-6 md:text-lg text-sm'>{ABOUT_FIRST}</p>
                 </div>
-                <div className='flex justify-center lg:justify-start'>
-                    <p className='my-2 maxw-xl py-6 text-lg'>{ABOUT_SECOND}</p>
+                <div className='flex justify-center'>
+                    <p className='my-2 max-w-xl py-3 md:py-6 md:text-lg text-sm'>{ABOUT_SECOND}</p>
                 </div>
                 </motion.div>
         </div>

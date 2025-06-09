@@ -47,7 +47,7 @@ export const EDUCATION = [
     field: "Computer Science and Engineering",
     university: "Ahmedabad Univeristy",
     address: "Ahmedabad, India",
-    gpa: "GPA: 2.9/4.0",
+    gpa: "GPA: 3.0/4.0",
   },
 ];
 
@@ -149,7 +149,12 @@ export const PROJECTS = [
 
 export const CURRICULAR_ACTIVITIES = [
   {
-    year: "May 2023",
+    year: "April 2025",
+    title: "Datathon - 24 hour challenge",
+    description: "PediBot - ...."
+  },
+  {
+    year: "May 2024",
     title: "HackUTA - 24 hour challenge",
     description:
       "SpotCrime - An interactive web application that displays real-time crime data across Los Angeles, filtered by type. Users can report suspicious activities by selecting a location on the map, with each report validated by geographic coordinates and categorized based on recent crime patterns. A community-driven voting system ensures the reliability of user-submitted reports, empowering locals to stay informed and engaged with neighborhood safety",
@@ -161,7 +166,7 @@ export const CURRICULAR_ACTIVITIES = [
       "Collaborated in a team to design and develop three websites on the Wix platform within short time span,focusing on Education, Residence, and Artificial Intelligence domains achieving runner-up position",
   },
   {
-    year: "Apr 2023",
+    year: "Apr 2024",
     title: "Datathon - 24 hour challenge",
     description:
       "Collaborated in a team of four during a 24-hour challenge to develop an image classification model and a BERT-based model for verifying the factual accuracy of tweets",

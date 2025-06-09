@@ -58,7 +58,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <RiReactjsLine className="text-7xl text-cyan-400 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(2.5)}
@@ -66,7 +66,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <RiNextjsFill className="text-7xl text-white bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <RiNextjsFill className="text-7xl text-white p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(4)}
@@ -74,7 +74,15 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <FaJava className="text-7xl text-red-700 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <FaJava className="text-7xl text-red-700 p-4 rounded-2xl inline-block" />
+        </motion.div>
+        <motion.div
+          variants={iconDuration(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800"
+        >
+          <SiJavascript className="text-7xl text-yellow-400 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(4)}
@@ -84,30 +92,6 @@ const Technologies = () => {
         >
           <SiTypescript className="text-7xl text-blue-600  p-4 rounded-2xl inline-block" />
         </motion.div>
-        <motion.div
-          variants={iconDuration(5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <SiJavascript className="text-7xl  bg-black text-yellow-400 p-4 rounded-2xl inline-block" />
-        </motion.div>
-        <motion.div
-          variants={iconDuration(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <FaHtml5 className="text-7xl  bg-orange-600 text-white p-4 rounded-2xl inline-block" />
-        </motion.div>
-        <motion.div
-          variants={iconDuration(4)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <SiCss3 className="text-7xl  bg-blue-500 text-white p-4 rounded-2xl inline-block" />
-        </motion.div>
 
         <motion.div
           variants={iconDuration(1)}
@@ -115,16 +99,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <FaPython className="text-7xl text-yellow-400 bg-neutral-900 p-4 rounded-2xl inline-block" />
-        </motion.div>
-
-        <motion.div
-          variants={iconDuration(2.8)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <FaNodeJs className="text-7xl text-green-500 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <FaPython className="text-7xl text-yellow-400 p-4 rounded-2xl inline-block" />
         </motion.div>
       </motion.div>
       <motion.div
@@ -139,7 +114,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiMongodb className="text-7xl text-green-500 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <SiMongodb className="text-7xl text-green-500 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(5)}
@@ -147,7 +122,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiMysql className="text-7xl  bg-gray-600 text-blue-300 p-4 rounded-2xl inline-block" />
+          <SiMysql className="text-7xl text-orange-300 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(1)}
@@ -155,7 +130,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiPostgresql className="text-7xl text-blue-600 bg-white p-4 rounded-2xl inline-block" />
+          <SiPostgresql className="text-7xl text-blue-600 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(2)}
@@ -163,31 +138,23 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiFirebase className="text-7xl  bg-black text-orange-500 p-4 rounded-2xl inline-block" />
+          <SiFirebase className="text-7xl text-orange-500 p-4 rounded-2xl inline-block" />
         </motion.div>
       </motion.div>
-
       <motion.div
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5 }}
         className="flex flex-wrap justify-center gap-4 items-center mt-10"
       >
-        <motion.div
-          variants={iconDuration(2.5)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800"
-        >
-          <SiAndroid className="text-7xl text-green-600 bg-neutral-900 p-4 rounded-2xl inline-block" />
-        </motion.div>
+
         <motion.div
           variants={iconDuration(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiDocker className="text-7xl text-sky-600 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <SiDocker className="text-7xl text-sky-600 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(1)}
@@ -195,7 +162,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiPostman className="text-7xl text-orange-500 bg-white p-4 rounded-2xl inline-block" />
+          <SiPostman className="text-7xl text-orange-500 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(6)}
@@ -203,7 +170,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiGithub className="text-7xl text-white bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <SiGithub className="text-7xl text-white p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(2.8)}
@@ -211,7 +178,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiFigma className="text-7xl text-purple-400 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <SiFigma className="text-7xl text-purple-700 p-4 rounded-2xl inline-block" />
         </motion.div>
         <motion.div
           variants={iconDuration(4)}
@@ -219,7 +186,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800"
         >
-          <SiJira className="text-7xl text-sky-600 bg-neutral-900 p-4 rounded-2xl inline-block" />
+          <SiJira className="text-7xl text-sky-600 p-4 rounded-2xl inline-block" />
         </motion.div>
       </motion.div>
     </div>

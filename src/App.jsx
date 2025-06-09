@@ -44,9 +44,9 @@ const App = () => {
         <div ref={refs.education}><Education /></div>
         <div ref={refs.experience}><Experience /></div>
         <div ref={refs.projects}><Projects /></div>
-        <div ref={refs.aboutme}><About /></div>
-        <div ref={refs.technologies}><Technologies /></div>
         <div ref={refs.activities}><CurricularActivities /></div>
+        <div ref={refs.technologies}><Technologies /></div>
+        <div ref={refs.aboutme}><About /></div>
         <div ref={refs.miniprojects}><MiniProjects/></div>
         {/* <Certifications/> */}
         {/* <CourseCertifications/> */}
