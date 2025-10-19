@@ -54,7 +54,7 @@ const Navbar = () => {
             {NAVBAR_LINKS.map((link, index) => (
               <button
                 key={index}
-                className="text-xl hover:cursor-pointer text-green-400 border-b-2 border-green-400 hover:text-blue-600 hover:border-b-black hover:bg-white"
+                className="text-xl hover:cursor-pointer text-green-400 border-b-2 border-green-400 hover:text-blue-600 hover:border-blue-600"
                 onClick={() => handleScroll(link.id)}
               >
                 {link.name}

@@ -5,19 +5,27 @@ import project4 from "../assets/projects/project-4.png";
 // import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import project8 from "../assets/projects/project-8.png";
 
-export const HERO_CONTENT = `I am an aspiring Computer Science student, graduated in Spring 2025, having with strong expertise in MERN stack development and have experience as a frontend developer. I am passionate about creating innovative and user-friendly web applications that solve real-world problems and alwaye keen to learn new technologies.`;
+export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these techstack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
 
 export const ABOUT_FIRST = `A fitness enthusiast who stays active through regular workouts and sports, including running, cycling, and racket sports like tennis, badminton, and table tennis. I also enjoy listening to music while studying or coding my projects. My second favorite activity is trekking, with one of my most memorable hikes being a trek up to 13,800 feet in Kasol, Himachal Pradesh.`;
 export const ABOUT_SECOND = `I am a self-motivated and disciplined individual who is always eager to learn, grow, and develop new skills. I believe in maintaining a well-structured daily routine, which helps me stay focused and productive. As a quick learner, I adapt swiftly to new challenges, and I value collaboration, understanding that success is best achieved by working effectively within a team. I’m committed to continuous improvement and approach every opportunity with enthusiasm and a positive outlook.`;
 
 export const EXPERIENCES = [
   {
+    year: "Jul 2025 - Present",
+    role: "Web Developer",
+    company: "University of Texas Arlington",
+    description: `Responsible for developing the website using wordpress according professor requirements. Responsible for redesigning and maintaining the academic website.`,
+    technologies: ["Wordpress"],
+  },
+  {
     year: "Jan 2023 - Jun 2023",
     role: "Frontend Developer",
-    company: "TOPS Technology",
+    company: "eSeller Hub",
     description: `Developed real-world web applications, including an e-commerce platform and education-sector websites, using React, JavaScript, and Tailwind CSS to build responsive and dynamic user interfaces. Designed and implemented reusable React components while leveraging Tailwind CSS for efficient styling, ensuring a seamless and visually appealing user experience. Developing the components by convrting figma design to web pages.`,
-    technologies: ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap"],
+    technologies: ["React.js", "JavaScript", "CSS", "Bootstrap", "HTML", "jQuery"],
   },
 ];
 
@@ -29,17 +37,17 @@ export const EDUCATION = [
     university: "University of Texas at Arlington",
     address: "Arlington, USA",
     gpa: "GPA: 4.0/4.0",
-    courses: [
-      "Software Testing",
-      "Software Engineering: Analysis, Design & Testing",
-      "AI",
-      "Advanced Topics in SE",
-      "Design & Analysis of Algorithms",
-      "Database Systems",
-      "Computer Networks",
-      "Computer Vision",
-      "Data Mining",
-    ],
+    // courses: [
+    //   "Software Testing",
+    //   "Software Engineering: Analysis, Design & Testing",
+    //   "AI",
+    //   "Advanced Topics in SE",
+    //   "Design & Analysis of Algorithms",
+    //   "Database Systems",
+    //   "Computer Networks",
+    //   "Computer Vision",
+    //   "Data Mining",
+    // ],
   },
   {
     year: "Jul 2019 - May 2023",
@@ -52,6 +60,17 @@ export const EDUCATION = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Lineup Studio: An Architect Website",
+    link: "https://lineup-studio.vercel.app/",
+    image: project8,
+    height:500,
+    width: 350,
+    description:
+      "Designed to showcase all the projects developed by the firm. Understanding the client requirements played a crucial role in development of the website. Advanced lazy loading techniques is used in order to provide better UX.",
+    technologies: ["React",   "Tailwind CSS", "EmailJs"  ],
+    links: ["https://github.com/NandishDPatel/lineup-studio","https://lineup-studio.vercel.app/"],
+  },
   {
     title: "Money Minds: Track your finances smarter by simplify budgeting",
     link: "https://github.com/NandishDPatel/Money-Minds",
