@@ -2,12 +2,13 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
-// import project5 from "../assets/projects/project-5.png";
+import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
+import project9 from "../assets/projects/project-9.png";
 
-export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these techstack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
+export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these Tech Stack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
 
 export const ABOUT_FIRST = `A fitness enthusiast who stays active through regular workouts and sports, including running, cycling, and racket sports like tennis, badminton, and table tennis. I also enjoy listening to music while studying or coding my projects. My second favorite activity is trekking, with one of my most memorable hikes being a trek up to 13,800 feet in Kasol, Himachal Pradesh.`;
 export const ABOUT_SECOND = `I am a self-motivated and disciplined individual who is always eager to learn, grow, and develop new skills. I believe in maintaining a well-structured daily routine, which helps me stay focused and productive. As a quick learner, I adapt swiftly to new challenges, and I value collaboration, understanding that success is best achieved by working effectively within a team. I’m committed to continuous improvement and approach every opportunity with enthusiasm and a positive outlook.`;
@@ -17,15 +18,22 @@ export const EXPERIENCES = [
     year: "Jul 2025 - Present",
     role: "Web Developer",
     company: "University of Texas Arlington",
-    description: `Responsible for developing the website using wordpress according professor requirements. Responsible for redesigning and maintaining the academic website.`,
-    technologies: ["Wordpress"],
+    description: `Responsible for redesigning and updating the academic website using Wordpress according professor requirements.`,
+    technologies: ["Wordpress", "HTML", "CSS"],
   },
   {
     year: "Jan 2023 - Jun 2023",
     role: "Frontend Developer",
     company: "eSeller Hub",
     description: `Developed real-world web applications, including an e-commerce platform and education-sector websites, using React, JavaScript, and Tailwind CSS to build responsive and dynamic user interfaces. Designed and implemented reusable React components while leveraging Tailwind CSS for efficient styling, ensuring a seamless and visually appealing user experience. Developing the components by convrting figma design to web pages.`,
-    technologies: ["React.js", "JavaScript", "CSS", "Bootstrap", "HTML", "jQuery"],
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "CSS",
+      "Bootstrap",
+      "HTML",
+      "jQuery",
+    ],
   },
 ];
 
@@ -61,15 +69,37 @@ export const EDUCATION = [
 
 export const PROJECTS = [
   {
+    title: "MongoQuery AI",
+    link: "https://github.com/NandishDPatel/MongoQuery-AI",
+    image: project9,
+    // height:300,
+    width: 350,
+    description:
+      "Developed AI web application which translates natural english language into executable MongoDB queries to fetch documents from the given collection",
+    technologies: [
+      "Python",
+      "Streamlit",
+      "CSS",
+      "Groq API",
+      "PyMongo",
+      "Docker",
+      "LLM",
+    ],
+    links: ["https://github.com/NandishDPatel/MongoQuery-AI"],
+  },
+  {
     title: "Lineup Studio: An Architect Website",
     link: "https://lineup-studio.vercel.app/",
     image: project8,
-    height:500,
+    height: 500,
     width: 350,
     description:
       "Designed to showcase all the projects developed by the firm. Understanding the client requirements played a crucial role in development of the website. Advanced lazy loading techniques is used in order to provide better UX.",
-    technologies: ["React",   "Tailwind CSS", "EmailJs"  ],
-    links: ["https://github.com/NandishDPatel/lineup-studio","https://lineup-studio.vercel.app/"],
+    technologies: ["React", "Tailwind CSS", "EmailJs"],
+    links: [
+      "https://github.com/NandishDPatel/lineup-studio",
+      "https://lineup-studio.vercel.app/",
+    ],
   },
   {
     title: "Money Minds: Track your finances smarter by simplify budgeting",
@@ -88,16 +118,16 @@ export const PROJECTS = [
     ],
     links: ["https://github.com/NandishDPatel/Money-Minds"],
   },
-  {
-    title: "Chatter Box: Real-Time Communication Made Simple",
-    link: "https://github.com/NandishDPatel/Chatter-Box",
-    image: project7,
-    width: 350,
-    description:
-      "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
-    technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn"],
-    links: ["https://github.com/NandishDPatel/Chatter-Box"],
-  },
+  // {
+  //   title: "Chatter Box: Real-Time Communication Made Simple",
+  //   link: "https://github.com/NandishDPatel/Chatter-Box",
+  //   image: project7,
+  //   width: 350,
+  //   description:
+  //     "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
+  //   technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn"],
+  //   links: ["https://github.com/NandishDPatel/Chatter-Box"],
+  // },
   {
     title: "Journey Genie: AI powered trip planning platform",
     link: "https://github.com/nandishdpatel/JourneyGenie",
@@ -126,20 +156,20 @@ export const PROJECTS = [
     technologies: ["React Native", "Node.js", "Express.js", "MongoDB"],
     links: ["https://github.com/NandishDPatel/GeoCompensate"],
   },
-  {
-    title: "EShoppy: E-commerce clothing website frontend design",
-    link: "https://nandishdpatel.github.io/BTechProject/",
-    image: project3,
-    height: 350,
-    width: 350,
-    description:
-      "Designed and implemented the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Prioritized responsive design and smooth navigation to ensure accessibility across devices. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    links: [
-      "https://github.com/NandishDPatel/BTechProject",
-      "https://nandishdpatel.github.io/BTechProject/",
-    ],
-  },
+  // {
+  //   title: "EShoppy: E-commerce clothing website frontend design",
+  //   link: "https://nandishdpatel.github.io/BTechProject/",
+  //   image: project3,
+  //   height: 350,
+  //   width: 350,
+  //   description:
+  //     "Designed and implemented the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Prioritized responsive design and smooth navigation to ensure accessibility across devices. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
+  //   technologies: ["HTML", "CSS", "Bootstrap"],
+  //   links: [
+  //     "https://github.com/NandishDPatel/BTechProject",
+  //     "https://nandishdpatel.github.io/BTechProject/",
+  //   ],
+  // },
   {
     title: "Digiwheels: An iOS mobile application",
     link: "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
@@ -170,7 +200,7 @@ export const CURRICULAR_ACTIVITIES = [
   {
     year: "April 2025",
     title: "Datathon - 24 hour challenge",
-    description: "PediBot - ...."
+    description: "PediBot - ....",
   },
   {
     year: "May 2024",
@@ -205,6 +235,6 @@ export const NAVBAR_LINKS = [
   { name: "Curricular Activities", id: "activities" },
   { name: "Technologies", id: "technologies" },
   { name: "About Me", id: "aboutme" },
-  { name: "Bootstrap Projects", id: "miniprojects" },
+  // { name: "Bootstrap Projects", id: "miniprojects" },
   { name: "Contact", id: "contact" },
 ];

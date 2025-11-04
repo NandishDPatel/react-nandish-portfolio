@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Education from "./components/Education";
 import CurricularActivities from "./components/CurricularActivities";
 // import NonTechnicalProjects from './components/NonTechnicalProjects'
-import MiniProjects from './components/MiniProjects'
+import MiniProjects from "./components/MiniProjects";
 // import Certifications from './components/Certifications';
 // import CourseCertifications from './components/CourseCertifications'
 import { useRef } from "react";
@@ -25,7 +25,6 @@ const App = () => {
     miniprojects: useRef(null),
   };
 
-
   const scrollToSection = (section) => {
     const ref = refs[section];
     if (ref && ref.current) {
@@ -38,20 +37,34 @@ const App = () => {
       <div className="fixed top-0 -z-10 h-full w-full">
         <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       </div>
-      <div  className="container mx-auto px-8">
-        <Navbar scrollToSection={scrollToSection} refs={refs}/>
-        <Hero/>
-        <div ref={refs.education}><Education /></div>
-        <div ref={refs.experience}><Experience /></div>
-        <div ref={refs.projects}><Projects /></div>
-        <div ref={refs.activities}><CurricularActivities /></div>
-        <div ref={refs.technologies}><Technologies /></div>
-        <div ref={refs.aboutme}><About /></div>
-        <div ref={refs.miniprojects}><MiniProjects/></div>
+      <div className="container mx-auto px-6">
+        <Navbar scrollToSection={scrollToSection} refs={refs} />
+        <Hero />
+        <div ref={refs.education}>
+          <Education />
+        </div>
+        <div ref={refs.experience}>
+          <Experience />
+        </div>
+        <div ref={refs.projects}>
+          <Projects />
+        </div>
+        <div ref={refs.activities}>
+          <CurricularActivities />
+        </div>
+        <div ref={refs.technologies}>
+          <Technologies />
+        </div>
+        <div ref={refs.aboutme}>
+          <About />
+        </div>
+        {/* <div ref={refs.miniprojects}><MiniProjects/></div> */}
         {/* <Certifications/> */}
         {/* <CourseCertifications/> */}
         {/* <NonTechnicalProjects/> */}
-        <div ref={refs.contact}><Contact /></div>
+        <div ref={refs.contact}>
+          <Contact />
+        </div>
       </div>
     </div>
   );

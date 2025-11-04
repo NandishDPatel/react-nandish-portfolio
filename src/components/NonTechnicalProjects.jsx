@@ -5,7 +5,7 @@ import image1 from "../assets/nontech-projects/UberConnect.png";
 
 const NonTechnicalProjects = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-700 pb-4">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -37,11 +37,7 @@ const NonTechnicalProjects = () => {
             target="_blank"
             className="flex justify-center"
           >
-            <img
-              src={image2}
-              alt=""
-              className="rounded max-w-[200px] h-auto"
-            />
+            <img src={image2} alt="" className="rounded max-w-[200px] h-auto" />
           </a>
           <a
             href="https://drive.google.com/drive/folders/1K1TyIw4QAdo_IUzK_bDuc0ax-yguu1yt"

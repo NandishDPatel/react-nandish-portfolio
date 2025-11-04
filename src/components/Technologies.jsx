@@ -37,12 +37,15 @@ const iconDuration = (duration) => ({
 
 const Technologies = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24" id="technologies">
+    <div
+      className="border-b border-neutral-800 lg:pb-24 pb-12 max-w-7xl mx-auto"
+      id="technologies"
+    >
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl text-blue-400 font-bold"
+        className="sm:my-20 my-8 text-center text-4xl text-blue-400 font-bold"
       >
         Technologies
       </motion.h2>
@@ -147,7 +150,6 @@ const Technologies = () => {
         transition={{ duration: 0.5 }}
         className="flex flex-wrap justify-center gap-4 items-center mt-10"
       >
-
         <motion.div
           variants={iconDuration(4)}
           initial="initial"

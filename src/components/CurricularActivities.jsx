@@ -1,33 +1,36 @@
 import { motion } from "motion/react";
-// import { EDUCATION } from '../constants';
-// import { CURRICULAR_ACTIVITIES } from '../constants';
 
 const CurricularActivities = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4" id="activities">
+    <div
+      className="border-b border-neutral-700 pb-4 max-w-7xl mx-auto"
+      id="activities"
+    >
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 0.5 }}
-        className="my-20 text-center text-4xl text-blue-400 font-bold"
+        className="sm:my-20 my-8 text-center text-4xl text-blue-400 font-bold"
       >
         Curricular Activities
       </motion.h2>
       <div>
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-8 flex lg:justify-center lg:text-left text-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4"
+            className="w-full text-center lg:block hidden"
           >
-            <p className="mb-2 text-lg text-neutral-400">Apr 2025</p>
+            <p className="mb-2 text-lg text-neutral-400 lg:block hidden">
+              Apr 2025
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4"
+            className="w-full "
           >
             <h6 className="mb-2 text-lg text-semibold">
               {" "}
@@ -58,20 +61,22 @@ const CurricularActivities = () => {
           </motion.div>
         </div>
 
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-8 flex lg:justify-center lg:text-left text-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4"
+            className="w-full text-center lg:block hidden"
           >
-            <p className="mb-2 text-lg text-neutral-400">May 2024</p>
+            <p className="mb-2 text-lg text-neutral-400 lg:block hidden">
+              May 2024
+            </p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4"
+            className="w-full"
           >
             <h6 className="mb-2 text-lg text-semibold">
               {" "}
@@ -100,20 +105,20 @@ const CurricularActivities = () => {
           </motion.div>
         </div>
 
-        <div className="mb-8 flex flex-wrap lg:justify-center">
+        <div className="mb-8 flex lg:justify-center lg:text-left text-center">
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1 }}
-            className="w-full lg:w-1/4"
+            className="w-full text-center lg:block hidden"
           >
-            <p className="mb-2 text-lg text-neutral-400">Mar 2024</p>
+            <p className="mb-2 text-lg text-neutral-400 ">Mar 2024</p>
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4"
+            className="w-full"
           >
             <h6 className="mb-2 text-lg text-semibold">
               {" "}
@@ -168,7 +173,7 @@ const CurricularActivities = () => {
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 1 }}
-            className="w-full max-w-xl lg:w-3/4"
+            className="w-full  lg:w-3/4"
           >
             <h6 className="mb-2 text-lg text-semibold">
               {" "}
