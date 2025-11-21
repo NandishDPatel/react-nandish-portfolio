@@ -8,32 +8,48 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 
-export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these Tech Stack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
+// export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these Tech Stack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
+
+export const HERO_CONTENT = "Proactive Software Engineer with 3 years of experience in building scalable full-stack applications integrating LLM-based GenAI APIs, MERN stack, and React Native. Demonstrated success in deploying AI-driven features that enhance automation, personalization, and user engagement across enterprise web and mobile systems. Skilled in JavaScript, TypeScript, Node.js, Python, AWS, and GCP, with a focus on agile delivery, CI/CD automation, and cloud-native performance optimization.";
 
 export const ABOUT_FIRST = `A fitness enthusiast who stays active through regular workouts and sports, including running, cycling, and racket sports like tennis, badminton, and table tennis. I also enjoy listening to music while studying or coding my projects. My second favorite activity is trekking, with one of my most memorable hikes being a trek up to 13,800 feet in Kasol, Himachal Pradesh.`;
 export const ABOUT_SECOND = `I am a self-motivated and disciplined individual who is always eager to learn, grow, and develop new skills. I believe in maintaining a well-structured daily routine, which helps me stay focused and productive. As a quick learner, I adapt swiftly to new challenges, and I value collaboration, understanding that success is best achieved by working effectively within a team. I’m committed to continuous improvement and approach every opportunity with enthusiasm and a positive outlook.`;
 
 export const EXPERIENCES = [
+  // {
+  //   year: "Jul 2025 - Present",
+  //   role: "Web Developer",
+  //   company: "University of Texas Arlington",
+  //   description: `Responsible for redesigning and updating the academic website using Wordpress according professor requirements.`,
+  //   technologies: ["Wordpress", "HTML", "CSS"],
+  // },
+  // {
+  //   year: "Jan 2023 - Jun 2023",
+  //   role: "Frontend Developer",
+  //   company: "eSeller Hub",
+  //   description: `Developed real-world web applications, including an e-commerce platform and education-sector websites, using React, JavaScript, and Tailwind CSS to build responsive and dynamic user interfaces. Designed and implemented reusable React components while leveraging Tailwind CSS for efficient styling, ensuring a seamless and visually appealing user experience. Developing the components by convrting figma design to web pages.`,
+  //   technologies: [
+  //     "React.js",
+  //     "JavaScript",
+  //     "CSS",
+  //     "Bootstrap",
+  //     "HTML",
+  //     "jQuery",
+  //   ],
+  // },
   {
-    year: "Jul 2025 - Present",
-    role: "Web Developer",
-    company: "University of Texas Arlington",
-    description: `Responsible for redesigning and updating the academic website using Wordpress according professor requirements.`,
-    technologies: ["Wordpress", "HTML", "CSS"],
+    year: "Jun 2025 - Present",
+    role: "AI Software Engineer",
+    company: "IBM",
+    description: "Design and build AI-powered full-stack applications by integrating React, and Node.js with OpenAI APIs to deliver intelligent chat, summarization, and automation features—improving overall user efficiency and engagement. I architect scalable backend systems using Express.js, MongoDB, MySQL, and FastAPI-driven AI orchestration pipelines, supporting 120K+ daily API requests with 99.9% uptime. I also deploy cloud-native applications on AWS using Docker, Lambda, and CI/CD pipelines, optimizing infrastructure costs and release cycles while ensuring enterprise-grade security through OAuth, JWT, and multi-tenant access controls.",
+    technologies: [],
   },
   {
-    year: "Jan 2023 - Jun 2023",
-    role: "Frontend Developer",
-    company: "eSeller Hub",
-    description: `Developed real-world web applications, including an e-commerce platform and education-sector websites, using React, JavaScript, and Tailwind CSS to build responsive and dynamic user interfaces. Designed and implemented reusable React components while leveraging Tailwind CSS for efficient styling, ensuring a seamless and visually appealing user experience. Developing the components by convrting figma design to web pages.`,
-    technologies: [
-      "React.js",
-      "JavaScript",
-      "CSS",
-      "Bootstrap",
-      "HTML",
-      "jQuery",
-    ],
+    year: "Jun 2021 - Jul 2023",
+    role: "Software Engineer",
+    company: "TCS (Tata Consultancy Services)",
+    description: "Engineered scalable web and mobile solutions using React.js, Node.js, and React Native, improving application performance, SEO, and user experience across high-traffic platforms. I built backend microservices using FastAPI and integrated real-time NoSQL pipelines with MongoDB, Firebase, and Firestore to support large-scale data workflows. Additionally, I automated deployments with Docker, Jenkins, and cloud platforms like AWS and GCP while ensuring reliable, secure, and maintainable systems through robust testing, optimized UI development, and comprehensive documentation.",
+    technologies: [],
   },
 ];
 
@@ -223,8 +239,8 @@ export const CURRICULAR_ACTIVITIES = [
 ];
 
 export const CONTACT = {
-  address: "Arlington, Texas, USA - 76013",
-  phoneNo: "+12 4555 666 00",
+  address: "Atalanta, Georgia, USA - 30080",
+  phoneNo: "(+1) 682-377-7683",
   email: "nandishdpatel22@gmail.com",
 };
 

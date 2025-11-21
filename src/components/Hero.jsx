@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="border-b border-neutral-700 sm:pb-4 pb-2 lg:mb-35 mb-12 sm:pt-12 max-w-7xl mx-auto">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col lg:items-start sm:items-center lg:ps-20 ">
+          <div className="flex flex-col lg:items-start sm:items-center lg:ps-20">
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -28,13 +28,13 @@ const Hero = () => {
               animate="visible"
               className="text-white text-3xl tracking-wide sm:text-left text-center"
             >
-              Software Developer
+              Software Engineer
             </motion.span>
             <motion.p
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter text-xl sm:text-center md:text-center lg:text-start sm:py-2 lg:px-0 md:px-5 sm:px-10 sm:text-left text-center"
+              className="my-2 max-w-xl py-6 font-light text-xl sm:py-2 lg:px-0 md:px-5 sm:px-10 text-justify"
             >
               {HERO_CONTENT}
             </motion.p>

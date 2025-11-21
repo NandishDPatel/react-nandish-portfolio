@@ -28,7 +28,7 @@ const Education = () => {
               className="w-full flex justify-around lg:grid"
             >
               <p className="mb-2 text-lg text-neutral-400">{education.year}</p>
-              <p
+              {/* <p
                 className={`mb-2 text-lg ${
                   education.gpa === "GPA: 4.0/4.0"
                     ? "text-bold text-xl text-blue-400"
@@ -38,7 +38,7 @@ const Education = () => {
                 <span className={education.gpa === 4 ? "font-bold" : ""}>
                   {education.gpa}
                 </span>
-              </p>
+              </p> */}
               {education.courses ? (
                 <p className="text-bold text-xl text-white mt-3 hidden lg:block ">
                   Courswork :
