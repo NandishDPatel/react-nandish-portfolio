@@ -79,7 +79,7 @@ export const EDUCATION = [
     field: "Computer Science and Engineering",
     university: "Ahmedabad Univeristy",
     address: "Ahmedabad, India",
-    gpa: "GPA: 3.0/4.0",
+    // gpa: "GPA: 3.0/4.0",
   },
 ];
 
