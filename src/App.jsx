@@ -40,9 +40,9 @@ const App = () => {
       <div className="container mx-auto px-6">
         <Navbar scrollToSection={scrollToSection} refs={refs} />
         <Hero />
-        <div ref={refs.experience}>
+        {/* <div ref={refs.experience}>
           <Experience />
-        </div>
+        </div> */}
         <div ref={refs.education}>
           <Education />
         </div>

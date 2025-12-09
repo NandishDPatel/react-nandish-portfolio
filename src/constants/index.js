@@ -246,7 +246,7 @@ export const CONTACT = {
 
 export const NAVBAR_LINKS = [
   { name: "Education", id: "education" },
-  { name: "Experience", id: "experience" },
+  // { name: "Experience", id: "experience" },
   { name: "Projects", id: "projects" },
   { name: "Curricular Activities", id: "activities" },
   { name: "Technologies", id: "technologies" },
