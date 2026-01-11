@@ -7,10 +7,12 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
+import project10 from "../assets/projects/project-10.png";
 
 // export const HERO_CONTENT = `Completed masters in Computer Science from University of Texas Arlington in May 2025. My focus area is in MERN stack, NextJs, Typescript but it doesn't mean I'm only aware about these Tech Stack. If your fundamentals are clear then learning and coding in other language shouldn't be a problem :) Looking for full-time, part-time or interships roles accross United States.`;
 
-export const HERO_CONTENT = "Proactive Software Engineer with 3 years of experience in building scalable full-stack applications integrating LLM-based GenAI APIs, MERN stack, and React Native. Demonstrated success in deploying AI-driven features that enhance automation, personalization, and user engagement across enterprise web and mobile systems. Skilled in JavaScript, TypeScript, Node.js, Python, AWS, and GCP, with a focus on agile delivery, CI/CD automation, and cloud-native performance optimization.";
+export const HERO_CONTENT =
+  "Proactive Software Engineer with 3 years of experience in building scalable full-stack applications integrating LLM-based GenAI APIs, MERN stack, and React Native. Demonstrated success in deploying AI-driven features that enhance automation, personalization, and user engagement across enterprise web and mobile systems. Skilled in JavaScript, TypeScript, Node.js, Python, AWS, and GCP, with a focus on agile delivery, CI/CD automation, and cloud-native performance optimization.";
 
 export const ABOUT_FIRST = `A fitness enthusiast who stays active through regular workouts and sports, including running, cycling, and racket sports like tennis, badminton, and table tennis. I also enjoy listening to music while studying or coding my projects. My second favorite activity is trekking, with one of my most memorable hikes being a trek up to 13,800 feet in Kasol, Himachal Pradesh.`;
 export const ABOUT_SECOND = `I am a self-motivated and disciplined individual who is always eager to learn, grow, and develop new skills. I believe in maintaining a well-structured daily routine, which helps me stay focused and productive. As a quick learner, I adapt swiftly to new challenges, and I value collaboration, understanding that success is best achieved by working effectively within a team. I’m committed to continuous improvement and approach every opportunity with enthusiasm and a positive outlook.`;
@@ -41,14 +43,16 @@ export const EXPERIENCES = [
     year: "Jun 2025 - Present",
     role: "AI Software Engineer",
     company: "IBM",
-    description: "Design and build AI-powered full-stack applications by integrating React, and Node.js with OpenAI APIs to deliver intelligent chat, summarization, and automation features—improving overall user efficiency and engagement. I architect scalable backend systems using Express.js, MongoDB, MySQL, and FastAPI-driven AI orchestration pipelines, supporting 120K+ daily API requests with 99.9% uptime. I also deploy cloud-native applications on AWS using Docker, Lambda, and CI/CD pipelines, optimizing infrastructure costs and release cycles while ensuring enterprise-grade security through OAuth, JWT, and multi-tenant access controls.",
+    description:
+      "Design and build AI-powered full-stack applications by integrating React, and Node.js with OpenAI APIs to deliver intelligent chat, summarization, and automation features—improving overall user efficiency and engagement. I architect scalable backend systems using Express.js, MongoDB, MySQL, and FastAPI-driven AI orchestration pipelines, supporting 120K+ daily API requests with 99.9% uptime. I also deploy cloud-native applications on AWS using Docker, Lambda, and CI/CD pipelines, optimizing infrastructure costs and release cycles while ensuring enterprise-grade security through OAuth, JWT, and multi-tenant access controls.",
     technologies: [],
   },
   {
     year: "Jun 2021 - Jul 2023",
     role: "Software Engineer",
     company: "TCS (Tata Consultancy Services)",
-    description: "Engineered scalable web and mobile solutions using React.js, Node.js, and React Native, improving application performance, SEO, and user experience across high-traffic platforms. I built backend microservices using FastAPI and integrated real-time NoSQL pipelines with MongoDB, Firebase, and Firestore to support large-scale data workflows. Additionally, I automated deployments with Docker, Jenkins, and cloud platforms like AWS and GCP while ensuring reliable, secure, and maintainable systems through robust testing, optimized UI development, and comprehensive documentation.",
+    description:
+      "Engineered scalable web and mobile solutions using React.js, Node.js, and React Native, improving application performance, SEO, and user experience across high-traffic platforms. I built backend microservices using FastAPI and integrated real-time NoSQL pipelines with MongoDB, Firebase, and Firestore to support large-scale data workflows. Additionally, I automated deployments with Docker, Jenkins, and cloud platforms like AWS and GCP while ensuring reliable, secure, and maintainable systems through robust testing, optimized UI development, and comprehensive documentation.",
     technologies: [],
   },
 ];
@@ -253,4 +257,131 @@ export const NAVBAR_LINKS = [
   { name: "About Me", id: "aboutme" },
   // { name: "Bootstrap Projects", id: "miniprojects" },
   { name: "Contact", id: "contact" },
+];
+
+export const AI_PROJECTS = [
+  {
+    title: "Journey Genie",
+    link: "https://github.com/nandishdpatel/JourneyGenie",
+    image: project1,
+    width: 350,
+    description:
+      "Developed essential features including an itinerary planner, links for booking flights and hotels, and a travel journal where users can upload photos and videos. Integrated APIs for a smooth, user-friendly experience, with secure sign-in functionality using google oAuth and reliable travel planning resources.",
+    technologies: [
+      "React",
+      "Gemini AI",
+      "Node.js",
+      "Express.js",
+      "Firebase",
+      "Tailwind CSS",
+    ],
+    links: ["https://github.com/nandishdpatel/JourneyGenie"],
+  },
+  {
+    title: "RAG Assist",
+    link: "https://github.com/NandishDPatel/RAG-Assist",
+    image: project10,
+    width: 350,
+    description:
+      "An AI-powered RAG bot designed to make reading, research, and knowledge retrieval seamless. Users can either upload PDFs or provide a brief description to retrieve relevant papers and the agent converts the content into chunks and stores them in Pinecone, allowing users to perform context-aware Q&A over their documents.",
+    technologies: [
+      "React",
+      "Python",
+      "LangChain",
+      "FastAPI",
+      "Pinecone",
+      "GCP",
+      "Tailwind CSS",
+      "GPT-4o-mini",
+      "multilingual embeddings",
+    ],
+    links: [
+      "https://github.com/nandishdpatel/RAG-Assist",
+      "https://miro.com/app/board/uXjVJ3tPldw=/?share_link_id=996466057234",
+    ],
+  },
+  // {
+  //   title: "MongoQuery AI",
+  //   link: "https://github.com/NandishDPatel/MongoQuery-AI",
+  //   image: project9,
+  //   // height:300,
+  //   width: 350,
+  //   description:
+  //     "Developed AI web application which translates natural english language into executable MongoDB queries to fetch documents from the given collection",
+  //   technologies: [
+  //     "Python",
+  //     "Streamlit",
+  //     "CSS",
+  //     "Groq API",
+  //     "PyMongo",
+  //     "Docker",
+  //     "LLM",
+  //   ],
+  //   links: ["https://github.com/NandishDPatel/MongoQuery-AI"],
+  // },
+];
+
+export const FULL_STACK_PROJECTS = [
+  {
+    title: "Geo Compensate",
+    subtitle: "Mobile app for managing the mobile workforce",
+    link: "https://github.com/NandishDPatel/GeoCompensate",
+    image: project2,
+    height: 200,
+    // width: 250,
+    description:
+      "Developed a mobile app that uses GPS to automate payroll, tracking work hours, breaks, and overtime accurately. This solution streamlines workforce management, reduces manual errors, and enables location-based compensation adjustments, enhancing transparency and efficiency for mobile teams.",
+    technologies: ["React Native", "Node.js", "Express.js", "MongoDB"],
+    links: ["https://github.com/NandishDPatel/GeoCompensate"],
+  },
+  {
+    title: "Money Minds",
+    subtitle: "A Next.js app to manage budgets and track expenses",
+    link: "https://github.com/NandishDPatel/Money-Minds",
+    image: project6,
+    height: 200,
+    // width: 350,
+    description:
+      "Designed to simplify the process of tracking expenses against budgets. With seamless user authentication via Clerk, users can securely log in and manage their personal financial data. The app allows users to create budgets for specific categories and track individual expenses.",
+    technologies: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Clerk",
+      "Drizzle ORM",
+      "Shadcn UI",
+    ],
+    links: ["https://github.com/NandishDPatel/Money-Minds"],
+  },
+];
+
+export const FRONTEND_PROJECTS = [
+  {
+    title: "Lineup Studio",
+    link: "https://lineup-studio.vercel.app/",
+    image: project8,
+    height: 500,
+    width: 350,
+    description:
+      "Designed to showcase all the projects developed by the firm. Understanding the client requirements played a crucial role in development of the website. Advanced lazy loading techniques is used in order to provide better UX.",
+    technologies: ["React", "Tailwind CSS", "EmailJs"],
+    links: [
+      "https://github.com/NandishDPatel/lineup-studio",
+      "https://lineup-studio.vercel.app/",
+    ],
+  },
+  {
+    title: "Digiwheels",
+    link: "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
+    image: project4,
+    height: 150,
+    width: 150,
+    description:
+      "Created a multi-functional iOS app using Figma, enabling users to access transport information, book appointments, and view essential documents like driver's licenses and vehicle registrations, enhancing user convenience and efficiency.",
+    technologies: ["Figma"],
+    links: [
+      "https://github.com/NandishDPatel/HCI_Figma_DigiWheels",
+      "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
+    ],
+  },
 ];
