@@ -1,6 +1,6 @@
 import { CONTACT } from "../constants";
 import { motion } from "motion/react";
-import resume from "../assets/NandishPatel.pdf";
+import resume from "../assets/Nandish Patel-2.pdf";
 
 const Contact = () => {
   return (
