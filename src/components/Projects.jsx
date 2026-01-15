@@ -103,7 +103,7 @@ const Projects = () => {
                     <div
                       className="
             absolute inset-0
-            bg-black/80 text-blue-400
+            bg-black text-blue-400
             transform translate-y-full
             group-hover:translate-y-0
             transition-transform duration-500 ease-in-out
@@ -175,7 +175,7 @@ const Projects = () => {
                     <div
                       className="
             absolute inset-0
-            bg-black/80 text-blue-400
+            bg-black text-blue-400
             transform translate-y-full
             group-hover:translate-y-0
             transition-transform duration-500 ease-in-out
@@ -247,7 +247,7 @@ const Projects = () => {
                     <div
                       className="
             absolute inset-0
-            bg-black/80 text-blue-400
+            bg-black text-blue-400
             transform translate-y-full
             group-hover:translate-y-0
             transition-transform duration-500 ease-in-out
