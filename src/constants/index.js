@@ -300,25 +300,25 @@ export const AI_PROJECTS = [
       "https://miro.com/app/board/uXjVJ3tPldw=/?share_link_id=996466057234",
     ],
   },
-  // {
-  //   title: "MongoQuery AI",
-  //   link: "https://github.com/NandishDPatel/MongoQuery-AI",
-  //   image: project9,
-  //   // height:300,
-  //   width: 350,
-  //   description:
-  //     "Developed AI web application which translates natural english language into executable MongoDB queries to fetch documents from the given collection",
-  //   technologies: [
-  //     "Python",
-  //     "Streamlit",
-  //     "CSS",
-  //     "Groq API",
-  //     "PyMongo",
-  //     "Docker",
-  //     "LLM",
-  //   ],
-  //   links: ["https://github.com/NandishDPatel/MongoQuery-AI"],
-  // },
+  {
+    title: "MongoQuery AI",
+    link: "https://github.com/NandishDPatel/MongoQuery-AI",
+    image: project9,
+    height:300,
+    width: 350,
+    description:
+      "Developed AI web application which translates natural english language into executable MongoDB queries to fetch documents from the given collection",
+    technologies: [
+      "Python",
+      "Streamlit",
+      "CSS",
+      "Groq API",
+      "PyMongo",
+      "Docker",
+      "LLM",
+    ],
+    links: ["https://github.com/NandishDPatel/MongoQuery-AI"],
+  },
 ];
 
 export const FULL_STACK_PROJECTS = [
@@ -353,6 +353,17 @@ export const FULL_STACK_PROJECTS = [
     ],
     links: ["https://github.com/NandishDPatel/Money-Minds"],
   },
+  {
+    title: "Chatter Box",
+    subtitle: "A real-time chat application built using React.js and Firebase",
+    link: "https://github.com/NandishDPatel/Chatter-Box",
+    image: project7,
+    height: 200,
+    description:
+      "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
+    technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn UI"],
+    links: ["https://github.com/NandishDPatel/Chatter-Box"],
+  }
 ];
 
 export const FRONTEND_PROJECTS = [
@@ -368,6 +379,20 @@ export const FRONTEND_PROJECTS = [
     links: [
       "https://github.com/NandishDPatel/lineup-studio",
       "https://lineup-studio.vercel.app/",
+    ],
+  },
+  {
+    title: "Eshoppy Clothing Website",
+    link: "https://eshoppy-website.vercel.app/",
+    image: project3,
+    height: 500,
+    width: 350,
+    description:
+      "Designed the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
+    technologies: ["React", "Tailwind CSS", "TypeScript"],
+    links: [
+      "https://eshoppy-website.vercel.app/",
+      "https://github.com/NandishDPatel/Ecommerce-Website",
     ],
   },
   {
