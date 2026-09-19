@@ -243,7 +243,7 @@ export const CURRICULAR_ACTIVITIES = [
 ];
 
 export const CONTACT = {
-  address: "Atalanta, Georgia, USA - 30080",
+  address: "Atalanta, Georgia, USA",
   phoneNo: "(+1) 682-377-7683",
   email: "nandishdpatel22@gmail.com",
 };
@@ -295,16 +295,13 @@ export const AI_PROJECTS = [
       "GPT-4o-mini",
       "multilingual embeddings",
     ],
-    links: [
-      "https://github.com/nandishdpatel/RAG-Assist",
-      "https://miro.com/app/board/uXjVJ3tPldw=/?share_link_id=996466057234",
-    ],
+    links: ["https://github.com/nandishdpatel/RAG-Assist"],
   },
   {
     title: "MongoQuery AI",
     link: "https://github.com/NandishDPatel/MongoQuery-AI",
     image: project9,
-    height:300,
+    height: 300,
     width: 350,
     description:
       "Developed AI web application which translates natural english language into executable MongoDB queries to fetch documents from the given collection",
@@ -363,7 +360,7 @@ export const FULL_STACK_PROJECTS = [
       "Chatter Box is a real-time chat application built using React.js and Firebase, providing users with a seamless and interactive messaging experience. It leverages Firebase Firestore for real-time message storage and synchronization, along with Firebase Authentication for secure user login.",
     technologies: ["React.js", "Firebase", "Drizzle ORM", "Clerk", "Shadcn UI"],
     links: ["https://github.com/NandishDPatel/Chatter-Box"],
-  }
+  },
 ];
 
 export const FRONTEND_PROJECTS = [
@@ -378,7 +375,7 @@ export const FRONTEND_PROJECTS = [
     technologies: ["React", "Tailwind CSS", "EmailJs"],
     links: [
       "https://github.com/NandishDPatel/lineup-studio",
-      "https://lineup-studio.vercel.app/",
+      "https://www.lineupstudio.in/",
     ],
   },
   {
@@ -391,8 +388,8 @@ export const FRONTEND_PROJECTS = [
       "Designed the front-end of an e-commerce clothing website based on initial prototypes, with a focus on creating an intuitive and seamless user experience. Applied key UI/UX principles to enhance product discovery, streamline the shopping process, and improve add-to-cart conversion rates.",
     technologies: ["React", "Tailwind CSS", "TypeScript"],
     links: [
-      "https://eshoppy-website.vercel.app/",
       "https://github.com/NandishDPatel/Ecommerce-Website",
+      "https://eshoppy-website.vercel.app/",
     ],
   },
   {
@@ -404,9 +401,6 @@ export const FRONTEND_PROJECTS = [
     description:
       "Created a multi-functional iOS app using Figma, enabling users to access transport information, book appointments, and view essential documents like driver's licenses and vehicle registrations, enhancing user convenience and efficiency.",
     technologies: ["Figma"],
-    links: [
-      "https://github.com/NandishDPatel/HCI_Figma_DigiWheels",
-      "https://www.figma.com/file/F7DCzEMGs17EA10IySuPza/HCI-Project?node-id=0%3A1",
-    ],
+    links: ["https://github.com/NandishDPatel/HCI_Figma_DigiWheels"],
   },
 ];
